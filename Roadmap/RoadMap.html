@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Iagon Roadmap Visualization</title>
+  <link rel="stylesheet" href="./main.css">
+  <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+</head>
+
+<body>
+  <div id="preloadfont">October 2017</div>
+
+  <div class="roadmap-container">
+    <div class="frise-dom-container">
+      <div class="frise-dom">
+        <div class="title-bar">
+          <h2>road map</h2>
+          <div class="subtitle">
+            <h3>Our development roadmap for
+              <span>the next year.</span>
+            </h3>
+            <p>Follow the Innovative path of
+              <span>iagon</span>'s Revolution</p>
+          </div>
+
+        </div>
+        <div id="frise" class="frise">
+          <ul>
+            <li class="active">
+              <span class="date">Sept. 2017</span>
+              <p>Platform Design
+                <br>& Architecture</p>
+            </li>
+            <li>
+              <span class="date">Oct. 2017</span>
+              <p>Platform Development
+                <br>Kick Off</p>
+            </li>
+            <li>
+              <span class="date">Nov. 2017</span>
+              <p>Whitepaper Presentation</p>
+            </li>
+            <li>
+              <span class="date">Dec. 2017</span>
+              <p>Platform Launch</p>
+            </li>
+
+            <li>
+              <span class="date">Mar. 2018</span>
+              <p>Pre-ICO</p>
+            </li>
+            <li>
+              <span class="date">May. 2018</span>
+              <p>ICO Launch</p>
+            </li>
+            <li>
+              <span class="date">May. 2018</span>
+              <p>Smart Contract</p>
+            </li>
+            <li>
+              <span class="date">Aug. 2018</span>
+              <p>Distributed Storage</p>
+            </li>
+            <li>
+              <span class="date">Nov. 2018</span>
+              <p>Distributed Processing</p>
+            </li>
+            <li>
+              <span class="date">Jan. 2019</span>
+              <p>Integrated DApps</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="last-tile" id="last-tile">
+      <div class="content">
+        <span class="date">January 2019</span>
+        <p>Integrated
+          <br>DApps</p>
+      </div>
+    </div>
+  </div>
+  <script type="x-shader/x-vertex" id="vertexShader">varying vec2 vUv;
+
+      void main () {
+        // mat4 modelView = modelViewMatrix;
+        
+         // Premi�re colonne. 
+        // modelView[0][0] = 1.0; 
+        // modelView[0][1] = 0.0; 
+        // modelView[0][2] = 0.0; 
+ 
+        // Deuxi�me colonne. 
+        // modelView[1][0] = 0.0; 
+        // modelView[1][1] = 1.0; 
+        // modelView[1][2] = 0.0; 
+
+        // Trois�me colonne. 
+        // modelView[2][0] = 0.0; 
+        // modelView[2][1] = 0.0; 
+        // modelView[2][2] = 1.0; 
+
+        
+        // vec4 P = modelView * vec4(position, 1.0);
+        // vUv = uv;
+        // gl_Position = projectionMatrix * P;
+
+        vUv = uv;
+        gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+      }</script>
+  <script type="x-shader/x-fragment" id="fragmentShader">uniform sampler2D texture1;
+      uniform vec2 offset;
+      varying vec2 vUv;
+      
+      void main() {
+        vec2 uv = vUv + offset;
+        gl_FragColor = texture2D(texture1, uv ); // Displays Nothing
+      }</script>
+  <script type="x-shader/x-vertex" id="vertexshader2">attribute float alpha;
+      varying float vAlpha;
+      varying vec2 vUv;
+      
+      void main() {
+        vUv = uv;
+        vAlpha = alpha;
+        vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+        gl_Position = projectionMatrix * mvPosition;
+        gl_PointSize = max(8.0-(gl_Position.z * 1.5) , 2.0);
+      }</script>
+  <script type="x-shader/x-fragment" id="fragmentshader2">uniform sampler2D texturedisc;
+      uniform vec3 color;
+      varying float vAlpha;
+      uniform float time;
+      varying vec2 vUv;
+
+      void main() {
+        float alpha =  max( sin(vAlpha-time), 0.2 );
+        gl_FragColor = texture2D(texturedisc, gl_PointCoord );
+        gl_FragColor = vec4(gl_FragColor.xyz, gl_FragColor.a * alpha );
+      }</script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
