@@ -12,11 +12,11 @@ function navigateToIco() {
     $('#menuMap').removeClass(' selected');
     $('#menuTeam').removeClass(' selected');
 
-    $("#liICO").attr("type", "disc");
-    $("#livision").removeAttr("type", "disc");
-    $("#lihow").removeAttr("type", "disc");
-    $("#limap").removeAttr("type", "disc");
-    $("#liteam").removeAttr("type", "disc");
+    // $("#liICO").attr("type", "disc");
+    // $("#livision").removeAttr("type", "disc");
+    // $("#lihow").removeAttr("type", "disc");
+    // $("#limap").removeAttr("type", "disc");
+    // $("#liteam").removeAttr("type", "disc");
 
 
 }
@@ -32,11 +32,11 @@ function navigateToVision() {
     $('#menuMap').removeClass(' selected');
     $('#menuTeam').removeClass(' selected');
 
-    $("#liICO").removeAttr("type", "disc");
-    $("#livision").attr("type", "disc");
-    $("#lihow").removeAttr("type", "disc");
-    $("#limap").removeAttr("type", "disc");
-    $("#liteam").removeAttr("type", "disc");
+    // $("#liICO").removeAttr("type", "disc");
+    // $("#livision").attr("type", "disc");
+    // $("#lihow").removeAttr("type", "disc");
+    // $("#limap").removeAttr("type", "disc");
+    // $("#liteam").removeAttr("type", "disc");
 
 }
 function navigateToHow() {
@@ -52,11 +52,11 @@ function navigateToHow() {
     $('#menuMap').removeClass(' selected');
     $('#menuTeam').removeClass(' selected');
 
-    $("#liICO").removeAttr("type", "disc");
-    $("#livision").removeAttr("type", "disc");
-    $("#lihow").attr("type", "disc");
-    $("#limap").removeAttr("type", "disc");
-    $("#liteam").removeAttr("type", "disc");
+    // $("#liICO").removeAttr("type", "disc");
+    // $("#livision").removeAttr("type", "disc");
+    // $("#lihow").attr("type", "disc");
+    // $("#limap").removeAttr("type", "disc");
+    // $("#liteam").removeAttr("type", "disc");
 
 
 }
@@ -73,11 +73,11 @@ function navigateToRoad() {
     $('#menuMap').addClass(' selected');
     $('#menuTeam').removeClass(' selected');
 
-    $("#liICO").removeAttr("type", "disc");
-    $("#livision").removeAttr("type", "disc");
-    $("#lihow").removeAttr("type", "disc");
-    $("#limap").attr("type", "disc");
-    $("#liteam").removeAttr("type", "disc");
+    // $("#liICO").removeAttr("type", "disc");
+    // $("#livision").removeAttr("type", "disc");
+    // $("#lihow").removeAttr("type", "disc");
+    // $("#limap").attr("type", "disc");
+    // $("#liteam").removeAttr("type", "disc");
 
 
 
@@ -95,11 +95,11 @@ function navigateToTeam() {
     $('#menuMap').removeClass(' selected');
     $('#menuTeam').addClass(' selected');
 
-    $("#liICO").removeAttr("type", "disc");
-    $("#livision").removeAttr("type", "disc");
-    $("#lihow").removeAttr("type", "disc");
-    $("#limap").removeAttr("type", "disc");
-    $("#liteam").attr("type", "disc");
+    // $("#liICO").removeAttr("type", "disc");
+    // $("#livision").removeAttr("type", "disc");
+    // $("#lihow").removeAttr("type", "disc");
+    // $("#limap").removeAttr("type", "disc");
+    // $("#liteam").attr("type", "disc");
 
 }
 
