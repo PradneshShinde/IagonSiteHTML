@@ -1266,3 +1266,19 @@ p{font-size:0.1em;}
 	width: 11%;
     margin-top: 3%;
 }
+
+/***************SCROLL*****************/
+scroll_header {
+	padding: 154px 0 100px;
+  }
+  
+  @media (min-width: 992px) {
+	scroll_header {
+	  padding: 156px 0 100px;
+	}
+  }
+  
+  /* section {
+	padding: 150px 0;
+  } */
+  /***************************/

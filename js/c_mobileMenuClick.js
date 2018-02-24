@@ -30,7 +30,7 @@ function nav_navigateToVision() {
 }
 function nav_navigateToHow() {
 
-    var elmnt = document.getElementById("howitworks");
+    var elmnt = document.getElementById("mHowItWorks");
     elmnt.scrollIntoView({
         behavior: 'smooth'
     });
