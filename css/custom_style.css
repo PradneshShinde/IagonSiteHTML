@@ -282,7 +282,7 @@ video::-webkit-media-controls{}
 }
 
 .token-count-desktop{
-	font-size: 21px;
+	font-size: 20px;
 	font-family: 'FontLight';
 	font-weight: 500!important;
 	letter-spacing: 2px;
@@ -563,7 +563,7 @@ a:focus{
 	font-weight: 600;
 	padding-top: 3.5%;
 	padding-bottom: 3.5%;
-	padding-left: 28%;
+	padding-left: 25%;
 	padding-right: 26%;
 }
 
@@ -594,7 +594,7 @@ a:focus{
 	font-weight: 600;
 	padding-top: 3.5%;
 	padding-bottom: 3.5%;
-	padding-left: 28%;
+	padding-left: 25%;
 	padding-right: 23%;
 }
 
@@ -642,7 +642,7 @@ a:focus{
 	-ms-background-size:contain;
 	background-size: contain;
 	font-family: 'FontLight';
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 600;
 	padding-left: 5%;
 	color:#fff;
@@ -741,15 +741,15 @@ a:focus{
 
 
 
-.btn-signup-platform-desktop{
+.btn-signup-to-platform-desktop{
 	background: -webkit-linear-gradient(left, #26A5EE, #8B63BE);
 	font-family: 'FontLight';
 	font-size: 21px;
 	font-weight: 600;
 	padding-top: 3.5%;
 	padding-bottom: 3.5%;
-	padding-left: 39%;
-	padding-right: 39%;
+	padding-left: 26%;
+	padding-right: 26%;
 }
 
 .bg-signup-to-platform-desktop{
@@ -838,8 +838,8 @@ a:focus{
 	font-weight: 600;
 	padding-top: 3.5%;
 	padding-bottom: 3.5%;
-	padding-left: 28%;
-	padding-right: 32%;
+	padding-left: 26%;
+	padding-right: 24%;
 }
 
 .bg-signup-to-platform-desktop{
