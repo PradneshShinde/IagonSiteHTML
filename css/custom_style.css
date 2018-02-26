@@ -869,23 +869,27 @@ a:focus{
 
 
 
-
-
+@media (max-width:1920px){
+	.logo-margin-left{margin-left:20px;width: 70% !important;}
+	.padding-right-xx{padding-right: 170px!important;}
+}
+@media (max-width:1366px){
+	.logo-margin-left{margin-left:20px;width: 80% !important;}
+	.padding-right-xx{padding-right: 85px!important;}
+}
+@media (max-width:1360px){
+	.logo-margin-left{margin-left:20px;width: 80% !important;}
+	.padding-right-xx{padding-right: 85px!important;}
+}
+@media (max-width:1280px){
+	.signup-text-header {font-family: 'Montserrat';font-size: 28px;font-weight: 800;background: -webkit-linear-gradient(left,#28A4ED, #607FD2,#8964BF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+	.logo-margin-left{margin-left:20px;width: 90% !important;}
+	.padding-right-xx{padding-right: 47px!important;}
+	
+}
 
 @media only screen and (min-width:1400px) and (max-width:1920px){.padding_top_bottom_false{padding-bottom:130px;padding-top:0px;}
 .roadmap-padding-top-50px{padding-top: 50px;}
-}
-
-@media (max-width:1280px){
-
-	.signup-text-header {
-		font-family: 'Montserrat';
-		font-size: 18px;
-		font-weight: 800;
-		background: -webkit-linear-gradient(left,#28A4ED, #607FD2,#8964BF);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
 }
 @media (max-width:1024px){.padding_top_bottom_false{padding-bottom:0px;padding-top:0px;}
 .logo_login_bar{float:left;padding-top:10px;margin-left:0px;background-color:#FFFFFF;z-index:1000;}
@@ -912,20 +916,25 @@ a:focus{
 .ico-date-desktop {font-family: 'FontLight';font-size: 28px;font-weight: 600;background: -webkit-linear-gradient(left,#28A4ED 50%,#8964BF 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 .token-count-desktop {font-size: 16px;font-family: 'FontLight';font-weight: 500!important;letter-spacing: 2px;margin-left: 5%;}
 .ico-count-color-blue-desktop {color: #3ABCFC;font-size: 15px;font-family: 'FontLight';font-weight: 600!important;}
-
+/* VISHAL */
 .bar_text{font-family:FontLight;font-size:12px !important;line-height:5px;color:#737373;}
 .font_med_blue{font-family: FontMed;color:#3abcfc;font-size: 14px}
 .li-text{font-size: 12px}
-.signup-text-header {font-family: 'Montserrat';font-size: 20px;font-weight: 800;background: -webkit-linear-gradient(left,#28A4ED, #607FD2,#8964BF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.signup-text-header {font-family: 'Montserrat';font-size: 15px;font-weight: 800;background: -webkit-linear-gradient(left,#28A4ED, #607FD2,#8964BF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 /* .hidden-1024{display: none;} */
 .padding-top-20percent{padding-top: 11%;}
+.padding-right-xx{padding-right: 30px!important;}
+.padding-top-1024{padding-top: 7px;}
+.logo-margin-left{margin-left:20px}
+
 
 }
+
 @media (max-width:1080px){.padding_top_bottom_false{padding-bottom:0px;padding-top:0px;}
 .footer-icons{text-align:left;float:left;margin-left:0px;padding-bottom:0px;}
 .logo_login_bar{float:left;padding-top:10px;margin-left:0px;background-color:#FFFFFF;z-index:1000;}
 .login_bar{background:url(../images/login_bar_mobile.png)no-repeat center top;background-position:center;width:100%;min-height:100px;display:block;padding-top:10px;margin-top:-2px;}
-.text_link{font-family:FontLight;font-size:17px;line-height:45px;color:#737373;}
+.text_link{font-family:FontLight;font-size: 15px;line-height:45px;color:#737373;}
 .text_link:hover{color:#26a5ee;}
 .reg_gray_text{font-family:FontLight;font-size:17px;line-height:30px;text-align:left;padding-top:15px;margin-left:0px;display:block;width:90%;padding-bottom:50px;color:#595959;margin-top:5px;}
 .vid_reg{font-family:FontLight;font-variant:normal;font-size:17px;line-height:25px;color:#595959;padding-top:15px;width:90%;padding-bottom:50px;}

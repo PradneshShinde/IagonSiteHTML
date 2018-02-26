@@ -4,7 +4,7 @@ function navigateToIco() {
 
     var elmnt = document.getElementById("ico");
     elmnt.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',block:"start"
     });
     $('#menuVision').removeClass(' selected');
     $('#menuICO').addClass('selected');
@@ -24,7 +24,7 @@ function navigateToVision() {
     
     var elmnt = document.getElementById("vision");
     elmnt.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',block:"start"
     });
     $('#menuVision').addClass('selected');
     $('#menuICO').removeClass(' selected');
@@ -43,7 +43,7 @@ function navigateToHow() {
 
     var elmnt = document.getElementById("howitworks");
     elmnt.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',block:"start"
     });
 
     $('#menuVision').removeClass(' selected');
@@ -64,7 +64,7 @@ function navigateToRoad() {
 
     var elmnt = document.getElementById("_RoadMap");
     elmnt.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',block:"start"
     });
 
     $('#menuVision').removeClass(' selected');
@@ -86,7 +86,7 @@ function navigateToTeam() {
 
     var elmnt = document.getElementById("_Team");
     elmnt.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',block:"start"
     });
 
     $('#menuVision').removeClass(' selected');

@@ -87,7 +87,7 @@ var waypointVisionUp = new Waypoint({
     }
 
   },
-  offset: '20%'
+  offset: -20
 })
 //Vision Ends
 
