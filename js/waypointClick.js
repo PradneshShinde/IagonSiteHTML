@@ -12,11 +12,6 @@ var waypointIcoDown = new Waypoint({
       $('#menuMap').removeClass(' selected');
       $('#menuTeam').removeClass(' selected');
 
-      // $("#liICO").attr("type", "disc");
-      // $("#livision").removeAttr("type", "disc");
-      // $("#lihow").removeAttr("type", "disc");
-      // $("#limap").removeAttr("type", "disc");
-      // $("#liteam").removeAttr("type", "disc");
     }
   },
   offset: 0
@@ -34,11 +29,7 @@ var waypointIcoUp = new Waypoint({
       $('#menuMap').removeClass(' selected');
       $('#menuTeam').removeClass(' selected');
 
-      // $("#liICO").attr("type", "disc");
-      // $("#livision").removeAttr("type", "disc");
-      // $("#lihow").removeAttr("type", "disc");
-      // $("#limap").removeAttr("type", "disc");
-      // $("#liteam").removeAttr("type", "disc");
+    
     }
   },
   offset: 0
@@ -57,11 +48,7 @@ var waypointVisionDown = new Waypoint({
       $('#menuMap').removeClass(' selected');
       $('#menuTeam').removeClass(' selected');
 
-      // $("#liICO").removeAttr("type", "disc");
-      // $("#livision").attr("type", "disc");
-      // $("#lihow").removeAttr("type", "disc");
-      // $("#limap").removeAttr("type", "disc");
-      // $("#liteam").removeAttr("type", "disc");
+    
     }
 
   },
@@ -79,11 +66,7 @@ var waypointVisionUp = new Waypoint({
       $('#menuMap').removeClass(' selected');
       $('#menuTeam').removeClass(' selected');
 
-      // $("#liICO").removeAttr("type", "disc");
-      // $("#livision").attr("type", "disc");
-      // $("#lihow").removeAttr("type", "disc");
-      // $("#limap").removeAttr("type", "disc");
-      // $("#liteam").removeAttr("type", "disc");
+     
     }
 
   },
@@ -103,11 +86,7 @@ var waypointHowItWorksDown = new Waypoint({
       $('#menuMap').removeClass(' selected');
       $('#menuTeam').removeClass(' selected');
 
-      // $("#liICO").removeAttr("type", "disc");
-      // $("#livision").removeAttr("type", "disc");
-      // $("#lihow").attr("type", "disc");
-      // $("#limap").removeAttr("type", "disc");
-      // $("#liteam").removeAttr("type", "disc");
+     
     }
   },
   offset: '30%'
@@ -125,11 +104,7 @@ var waypointHowItWorksUp = new Waypoint({
       $('#menuMap').removeClass(' selected');
       $('#menuTeam').removeClass(' selected');
 
-      // $("#liICO").removeAttr("type", "disc");
-      // $("#livision").removeAttr("type", "disc");
-      // $("#lihow").attr("type", "disc");
-      // $("#limap").removeAttr("type", "disc");
-      // $("#liteam").removeAttr("type", "disc");
+    
     }
   },
   // offset: '10%'
@@ -150,11 +125,7 @@ var waypointRoadMapDown = new Waypoint({
       $('#menuMap').addClass(' selected');
       $('#menuTeam').removeClass(' selected');
 
-      // $("#liICO").removeAttr("type", "disc");
-      // $("#livision").removeAttr("type", "disc");
-      // $("#lihow").removeAttr("type", "disc");
-      // $("#limap").attr("type", "disc");
-      // $("#liteam").removeAttr("type", "disc");
+    
     }
   },
   offset: '40%'
@@ -171,11 +142,7 @@ var waypointRoadMapUp = new Waypoint({
       $('#menuMap').addClass(' selected');
       $('#menuTeam').removeClass(' selected');
 
-      // $("#liICO").removeAttr("type", "disc");
-      // $("#livision").removeAttr("type", "disc");
-      // $("#lihow").removeAttr("type", "disc");
-      // $("#limap").attr("type", "disc");
-      // $("#liteam").removeAttr("type", "disc");
+     
     }
   },
   offset: -50
@@ -195,11 +162,7 @@ var waypointTeamDown = new Waypoint({
       $('#menuMap').removeClass(' selected');
       $('#menuTeam').addClass(' selected');
 
-      // $("#liICO").removeAttr("type", "disc");
-      // $("#livision").removeAttr("type", "disc");
-      // $("#lihow").removeAttr("type", "disc");
-      // $("#limap").removeAttr("type", "disc");
-      // $("#liteam").attr("type", "disc");
+     
     }
   },
   offset: 10
@@ -217,11 +180,7 @@ var waypointTeamUp = new Waypoint({
       $('#menuMap').removeClass(' selected');
       $('#menuTeam').addClass(' selected');
 
-      // $("#liICO").removeAttr("type", "disc");
-      // $("#livision").removeAttr("type", "disc");
-      // $("#lihow").removeAttr("type", "disc");
-      // $("#limap").removeAttr("type", "disc");
-      // $("#liteam").attr("type", "disc");
+     
     }
   },
   offset: '10%'
