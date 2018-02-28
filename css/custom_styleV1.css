@@ -204,6 +204,14 @@ video::-webkit-media-controls{}
 .img_Oracle_s{width:85px;height:52px;background:url(../images/1_oracle_1.png) no-repeat;display:inline-block;}
 .img_Oracle_s:hover{background:url(../images/1_oracle.png) no-repeat;}
 
+/* Suse */
+.img_Suse_l{width:85px;height:52px;background:url(../images/1_suse_1.png) no-repeat;display:inline-block;}
+.img_Suse_l:hover{background:url(../images/1_suse.png) no-repeat;}
+
+.img_Suse_s{width:85px;height:52px;background:url(../images/1_suse_1.png) no-repeat;display:inline-block;}
+.img_Suse_s:hover{background:url(../images/1_suse.png) no-repeat;}
+
+
 /************************************************/
 
 
