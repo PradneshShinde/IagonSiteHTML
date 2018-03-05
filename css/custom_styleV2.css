@@ -155,62 +155,68 @@ video::-webkit-media-controls{}
 .img_winjit:hover{background:url(../images/winjit.png) no-repeat;}
 .img_Werkstatt{width:90px;height:62px;background:url(../images/Werkstatt_1.png) no-repeat;display:inline-block;}
 .img_Werkstatt:hover{background:url(../images/Werkstatt.png) no-repeat;}
-.img_hello{width:90px;height:52px;background:url(../images/hello_Monday_1.png) no-repeat;display:inline-block;}
+.img_hello{width:90px;height:62px;background:url(../images/hello_Monday_1.png) no-repeat;display:inline-block;}
 .img_hello:hover{background:url(../images/hello_Monday.png) no-repeat;}
-.img_ethereum{width:90px;height:52px;background:url(../images/entreprise_ethereum_alliance_1.png) no-repeat;display:inline-block;}
+.img_ethereum{width:90px;height:62px;background:url(../images/entreprise_ethereum_alliance_1.png) no-repeat;display:inline-block;}
 .img_ethereum:hover{background:url(../images/entreprise_ethereum_alliance.png) no-repeat;}
-.img_Bancor{width:90px;height:52px;background:url(../images/Bancor_1.png) no-repeat;display:inline-block;}
+.img_Bancor{width:90px;height:62px;background:url(../images/Bancor_1.png) no-repeat;display:inline-block;}
 .img_Bancor:hover{background:url(../images/Bancor.png) no-repeat;}
-.img_wings_l{width:85px;height:52px;background:url(../images/1_entreprise_ethereum_alliance_1.png) no-repeat;display:inline-block;}
+.img_wings_l{width:85px;height:62px;background:url(../images/1_entreprise_ethereum_alliance_1.png) no-repeat;display:inline-block;}
 .img_wings_l:hover{background:url(../images/1_entreprise_ethereum_alliance.png) no-repeat;}
-.img_wings_s{width:85px;height:52px;background:url(../images/1_entreprise_ethereum_alliance_1.png) no-repeat;display:inline-block;}
+.img_wings_s{width:85px;height:62px;background:url(../images/1_entreprise_ethereum_alliance_1.png) no-repeat;display:inline-block;}
 .img_wings_s:hover{background:url(../images/1_entreprise_ethereum_alliance.png) no-repeat;}
 .img_norway_l{width:88px;height:62px;background:url(../images/norway_1.png) no-repeat;display:inline-block;}
 .img_norway_l:hover{background:url(../images/norway.png) no-repeat;}
-.img_norway_s{width:80px;height:52px;background:url(../images/norway_1.png) no-repeat;display:inline-block;}
+.img_norway_s{width:80px;height:62px;background:url(../images/norway_1.png) no-repeat;display:inline-block;}
 .img_norway_s:hover{background:url(../images/norway.png) no-repeat;}
 .img_iota_l{width:90px;height:62px;background:url(../images/iota_1.png) no-repeat;display:inline-block;}
 .img_iota_l:hover{background:url(../images/iota.png) no-repeat;}
-.img_MediaNord{width:90px;height:65px;background:url(../images/md_1_.png) no-repeat;display:inline-block;}
+.img_MediaNord{width:90px;height:62px;background:url(../images/md_1_.png) no-repeat;display:inline-block;}
 .img_MediaNord:hover{background:url(../images/md.png) no-repeat;}
-.img_NuccoBrain{width:90px;height:65px;background:url(../images/nb_1.png) no-repeat;display:inline-block;}
+.img_NuccoBrain{width:90px;height:62px;background:url(../images/nb_1.png) no-repeat;display:inline-block;}
 .img_NuccoBrain:hover{background:url(../images/nb.png) no-repeat;}
 .img_Unit9{width:90px;height:62px;background:url(../images/unit_1.png) no-repeat;display:inline-block;}
 .img_Unit9:hover{background:url(../images/unit.png) no-repeat;}
-.img_tiesdb_l{width:85px;height:52px;background:url(../images/tiesdb_greyed.png) no-repeat;display:inline-block;}
+.img_tiesdb_l{width:85px;height:62px;background:url(../images/tiesdb_greyed.png) no-repeat;display:inline-block;}
 .img_tiesdb_l:hover{background:url(../images/tiesdb_colored.png) no-repeat;}
-.img_tiesdb_s{width:85px;height:52px;background:url(../images/tiesdb_greyed.png) no-repeat;display:inline-block;}
+.img_tiesdb_s{width:85px;height:62px;background:url(../images/tiesdb_greyed.png) no-repeat;display:inline-block;}
 .img_tiesdb_s:hover{background:url(../images/tiesdb_colored.png) no-repeat;}
 
 
 /*************** NEW PATNERS ************/
 /* bounty */
-.img_bounty_l{width:85px;height:52px;background:url(../images/1_bounty_1.png) no-repeat;display:inline-block;}
+.img_bounty_l{width:85px;height:62px;background:url(../images/1_bounty_1.png) no-repeat;display:inline-block;}
 .img_bounty_l:hover{background:url(../images/1_bounty.png) no-repeat;}
 
-.img_bounty_s{width:85px;height:52px;background:url(../images/1_bounty_1.png) no-repeat;display:inline-block;}
+.img_bounty_s{width:85px;height:62px;background:url(../images/1_bounty_1.png) no-repeat;display:inline-block;}
 .img_bounty_s:hover{background:url(../images/1_bounty.png) no-repeat;}
 /* Cloud28+ */
-.img_Cloud28_l{width:85px;height:52px;background:url(../images/1_cloud_1.png) no-repeat;display:inline-block;}
+.img_Cloud28_l{width:85px;height:62px;background:url(../images/1_cloud_1.png) no-repeat;display:inline-block;}
 .img_Cloud28_l:hover{background:url(../images/1_cloud.png) no-repeat;}
 
-.img_Cloud28_s{width:85px;height:52px;background:url(../images/1_cloud_1.png) no-repeat;display:inline-block;}
+.img_Cloud28_s{width:85px;height:62px;background:url(../images/1_cloud_1.png) no-repeat;display:inline-block;}
 .img_Cloud28_s:hover{background:url(../images/1_cloud.png) no-repeat;}
 
 /* Oracle */
-.img_Oracle_l{width:85px;height:52px;background:url(../images/1_oracle_1.png) no-repeat;display:inline-block;}
+.img_Oracle_l{width:85px;height:62px;background:url(../images/1_oracle_1.png) no-repeat;display:inline-block;}
 .img_Oracle_l:hover{background:url(../images/1_oracle.png) no-repeat;}
 
-.img_Oracle_s{width:85px;height:52px;background:url(../images/1_oracle_1.png) no-repeat;display:inline-block;}
+.img_Oracle_s{width:85px;height:62px;background:url(../images/1_oracle_1.png) no-repeat;display:inline-block;}
 .img_Oracle_s:hover{background:url(../images/1_oracle.png) no-repeat;}
 
 /* Suse */
-.img_Suse_l{width:85px;height:52px;background:url(../images/1_suse_1.png) no-repeat;display:inline-block;}
+.img_Suse_l{width:85px;height:62px;background:url(../images/1_suse_1.png) no-repeat;display:inline-block;}
 .img_Suse_l:hover{background:url(../images/1_suse.png) no-repeat;}
 
-.img_Suse_s{width:85px;height:52px;background:url(../images/1_suse_1.png) no-repeat;display:inline-block;}
+.img_Suse_s{width:85px;height:62px;background:url(../images/1_suse_1.png) no-repeat;display:inline-block;}
 .img_Suse_s:hover{background:url(../images/1_suse.png) no-repeat;}
 
+/* Dragon Chain */
+.img_DragonChain_l{width:85px;height:62px;background:url(../images/Dragon_chain_1.png) no-repeat;display:inline-block;}
+.img_DragonChain_l:hover{background:url(../images/Dragon_chain.png) no-repeat;}
+
+.img_DragonChain_s{width:85px;height:62px;background:url(../images/Dragon_chain_1.png) no-repeat;display:inline-block;}
+.img_DragonChain_s:hover{background:url(../images/Dragon_chain.png) no-repeat;}
 
 /************************************************/
 
