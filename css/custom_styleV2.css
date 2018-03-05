@@ -602,7 +602,7 @@ a:focus{
 
 
 .btn-download-business-plan-desktop{
-	background-color: #C1BFBF;
+	background: -webkit-linear-gradient(left, #26A5EE, #8B63BE);
 	font-family: 'FontLight';
 	font-size: 21px;
 	font-weight: 600;
@@ -1087,7 +1087,7 @@ p{font-size:0.1em;}
 .bg-button-signup-mobile{background: url(../images/arrow_desktop.png)no-repeat top left;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size: contain;font-family: 'FontLight';font-size: 15px;font-weight: 600;padding-left: 12%;color:#fff;text-decoration: none;border:none;letter-spacing: 1px;/* line-height: 47px; */}
 .btn-signup-platform-mobile{background: -webkit-linear-gradient(left, #26A5EE, #8B63BE);font-family: 'FontLight';padding-top: 3.5%;padding-bottom: 5%;padding-left: 18%;padding-right: 18%;color:#fff;}
 .bg-signup-to-platform-mobile{background: url(../images/arrow_desktop.png)no-repeat top left;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size: contain;font-family: 'FontLight';font-size: 13px;font-weight: 600;padding-left: 14%;color:#fff;text-decoration: none;border:none;letter-spacing: 1px;}
-.btn-download-business-plan-mobile{background: #C1BFBF;font-family: 'FontLight';padding-top: 3.5%;padding-bottom: 5%;padding-left: 17%;padding-right: 16%;color:#fff;}
+.btn-download-business-plan-mobile{background:  -webkit-linear-gradient(left, #26A5EE, #8B63BE);font-family: 'FontLight';padding-top: 3.5%;padding-bottom: 5%;padding-left: 17%;padding-right: 16%;color:#fff;}
 .bg-download-business-plan-mobile{background: url(../images/arrow_desktop_down.png)no-repeat top left;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size: contain;font-family: 'FontLight';font-size: 12px;font-weight: 600;padding-left: 13%;color:#fff;text-decoration: none;border:none;letter-spacing: 1px;}
 .btn-download-whitepaper-mobile{background: -webkit-linear-gradient(left, #26A5EE, #8B63BE);font-family: 'FontLight';padding-top: 3.5%;padding-bottom: 5%;padding-left: 17%;padding-right: 20%;color:#fff;}
 .bg-download-whitepaper-mobile{background: url(../images/arrow_desktop_down.png)no-repeat top left;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size: contain;font-family: 'FontLight';font-size: 12px;font-weight: 600;padding-left: 13%;color:#fff;text-decoration: none;border:none;letter-spacing: 1px;}
@@ -1132,7 +1132,7 @@ p{font-size:0.1em;}
 .bg-button-signup-mobile{background: url(../images/arrow_desktop.png)no-repeat top left;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size: contain;font-family: 'FontLight';font-size: 16px;font-weight: 600;padding-left: 10%;color:#fff;text-decoration: none;border:none;letter-spacing: 1px;}
 .btn-signup-platform-mobile{background: -webkit-linear-gradient(left, #26A5EE, #8B63BE);font-family: 'FontLight';padding-top: 3.5%;padding-bottom: 5%;padding-left: 21%;padding-right: 21%;color:#fff;}
 .bg-signup-to-platform-mobile{background: url(../images/arrow_desktop.png)no-repeat top left;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size: contain;font-family: 'FontLight';font-size: 13px;font-weight: 600;padding-left: 12%;color:#fff;text-decoration: none;border:none;letter-spacing: 1px;}
-.btn-download-business-plan-mobile{background: #C1BFBF;font-family: 'FontLight';padding-top: 3.5%;padding-bottom: 5%;padding-left: 21%;padding-right: 17%;color:#fff;}
+.btn-download-business-plan-mobile{background:-webkit-linear-gradient(left, #26A5EE, #8B63BE);font-family: 'FontLight';padding-top: 3.5%;padding-bottom: 5%;padding-left: 21%;padding-right: 17%;color:#fff;}
 .bg-download-business-plan-mobile{background: url(../images/arrow_desktop_down.png)no-repeat top left;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size: contain;font-family: 'FontLight';font-size: 12px;font-weight: 600;padding-left: 10%;color:#fff;text-decoration: none;border:none;letter-spacing: 1px;}
 .btn-download-whitepaper-mobile{background: -webkit-linear-gradient(left, #26A5EE, #8B63BE);font-family: 'FontLight';padding-top: 3.5%;padding-bottom: 5%;padding-left: 21%;padding-right: 21%;color:#fff;}
 .bg-download-whitepaper-mobile{background: url(../images/arrow_desktop_down.png)no-repeat top left;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size: contain;font-family: 'FontLight';font-size: 12px;font-weight: 600;padding-left: 10%;color:#fff;text-decoration: none;border:none;letter-spacing: 1px;}
