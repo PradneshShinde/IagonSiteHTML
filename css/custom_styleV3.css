@@ -218,6 +218,11 @@ video::-webkit-media-controls{}
 .img_DragonChain_s{width:85px;height:62px;background:url(../images/Dragon_chain_1.png) no-repeat;display:inline-block;}
 .img_DragonChain_s:hover{background:url(../images/Dragon_chain.png) no-repeat;}
 
+
+/* LDJ Capital */
+.img_LDJ{width:92px;height:62px;background:url(../images/LDJ_greyed.png) no-repeat;display:inline-block;}
+.img_LDJ:hover{background:url(../images/LDJ_color.png) no-repeat;}
+
 /************************************************/
 
 
