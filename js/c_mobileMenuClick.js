@@ -32,7 +32,7 @@ function nav_navigateToHow() {
 
     var elmnt = document.getElementById("mHowItWorks");
     elmnt.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth', block: "start"
     });
 
     $('#nav_liICO').removeClass(' selected');
@@ -47,7 +47,7 @@ function nav_navigateToRoad() {
 
     var elmnt = document.getElementById("_RoadMap");
     elmnt.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth', block: "start"
     });
 
     $('#nav_liICO').removeClass(' selected');
@@ -62,7 +62,7 @@ function nav_navigateToTeam() {
 
     var elmnt = document.getElementById("_Team");
     elmnt.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth', block: "start"
     });
 
     $('#nav_liICO').removeClass(' selected');

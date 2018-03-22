@@ -885,6 +885,8 @@ a:focus{
     text-decoration: none !important;
 }
 
+.responsive-padding-top{padding-top: 60px;}
+
 
 
 
@@ -960,6 +962,7 @@ a:focus{
 .icon-box{padding:8px 9px;}
 .roadmap-padding-top-50px{padding-top: 50px;}
 .banner-logo{width: 20%;}
+.responsive-padding-top{padding-top: 60px;}
 }
 
 
@@ -1057,6 +1060,7 @@ h1, .h1, h2, .h2, h3, .h3{margin-top:0px;margin-bottom:0px;}
 .roadmap-padding-top-50px{padding-top: 0px;}
 .banner-logo{width: 20%;}
 .padding_top_responsive{padding-top: 80px;}
+.responsive-padding-top{padding-top: 0px;}
 }
 @media (max-width:480px){.page{background:url(../images/try_2/banner_new_mobile.png)no-repeat right top;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size:contain;min-height:790px;}
 .padding_top_bottom_false{padding-bottom:0px;padding-top:0px;}
@@ -1076,6 +1080,7 @@ p{font-size:0.1em;}
 .meet-the-team-text{font-size: 15px !important;}
 .meet-the-team-text-bold{font-size: 15px !important;}
 .banner-logo{width: 20%;}
+.responsive-padding-top{padding-top: 0px;}
 }
 
 
@@ -1130,6 +1135,9 @@ p{font-size:0.1em;}
 	-webkit-text-fill-color: transparent;
 	display:  inline-block;
 }
+.responsive-padding-top{padding-top: 0px;}
+.map-title-bold-mobile{color: #14A6F1;font-weight: 800;font-size: 20px;font-family: 'FontBold'}
+.map-title-mobile{color: #14A6F1;font-size: 20px;font-family: 'FontLight';}
 }
 
 @media(max-width:412px){
@@ -1175,6 +1183,9 @@ p{font-size:0.1em;}
 	-webkit-text-fill-color: transparent;
 	display:  inline-block;
 }
+.responsive-padding-top{padding-top: 0px;}
+.map-title-bold-mobile{color: #14A6F1;font-weight: 800;font-size: 20px;font-family: 'FontBold'}
+.map-title-mobile{color: #14A6F1;font-size: 20px;font-family: 'FontLight';}
 }
 
 
@@ -1225,6 +1236,9 @@ p{font-size:0.1em;}
 	-webkit-text-fill-color: transparent;
 	display:  inline-block;
 }
+.responsive-padding-top{padding-top: 0px;}
+.map-title-bold-mobile{color: #14A6F1;font-weight: 800;font-size: 20px;font-family: 'FontBold'}
+.map-title-mobile{color: #14A6F1;font-size: 20px;font-family: 'FontLight';}
 }
 @media(max-width:360px){
 .button-signup-mobile {background: -webkit-linear-gradient(left, #26A5EE, #8B63BE);font-family: 'FontLight';font-size: 15px;font-weight: 600;padding-top: 5%;padding-bottom: 5%;padding-left: 30%;padding-right: 29%;color: #fff;text-decoration: none;border: none;}
@@ -1269,6 +1283,9 @@ p{font-size:0.1em;}
 	-webkit-text-fill-color: transparent;
 	display:  inline-block;
 }
+.responsive-padding-top{padding-top: 0px;}
+.map-title-bold-mobile{color: #14A6F1;font-weight: 800;font-size: 20px;font-family: 'FontBold'}
+.map-title-mobile{color: #14A6F1;font-size: 20px;font-family: 'FontLight';}
 
 }
 
@@ -1294,11 +1311,9 @@ p{font-size:0.1em;}
 .footer_image{display:block;width:100%;height:100%;}
 .footer_text_white{font-family:FontLight;font-size:14px;color:#fff;line-height:60px;vertical-align:middle;text-align:right;}
 .button-signup-mobile {background: -webkit-linear-gradient(left, #26A5EE, #8B63BE);font-family: 'FontLight';font-size: 15px;font-weight: 600;padding-top: 5%;padding-bottom: 5%;padding-left: 25%;padding-right: 25%;color: #fff;text-decoration: none;border: none;}
-
 .bg-button-signup-mobile{background: url(../images/arrow_desktop.png)no-repeat top left;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size: contain;font-family: 'FontLight';font-size: 13px;font-weight: 600;padding-left: 9%;color:#fff;text-decoration: none;border:none;letter-spacing: 1px;}
 .banner-logo{width: 20%;}
 .banner-header-mobile{font-family: 'Montserrat';font-size: 22px;font-weight: 900!important;background: -webkit-linear-gradient(left,#28A4ED, #607FD2,#8964BF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;letter-spacing: 1px;line-height: 30px;}
-
 .btn-signup-platform-mobile{background: -webkit-linear-gradient(left, #26A5EE, #8B63BE);font-family: 'FontLight';padding-top: 3.5%;padding-bottom: 5%;padding-left: 12%;padding-right: 11%;color:#fff;}
 .bg-signup-to-platform-mobile{background: url(../images/arrow_desktop.png)no-repeat top left;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;-ms-background-size:contain;background-size: contain;font-family: 'FontLight';font-size: 13px;font-weight: 600;padding-left: 12%;color:#fff;text-decoration: none;border:none;letter-spacing: 1px;}
 .btn-download-business-plan-mobile{background: -webkit-linear-gradient(left, #26A5EE, #8B63BE);font-family: 'FontLight';padding-top: 3.5%;padding-bottom: 5%;padding-left: 10%;padding-right: 8%;color:#fff;}
@@ -1312,37 +1327,20 @@ p{font-size:0.1em;}
 .meet-the-team-text-bold{font-size: 15px !important;}
 .padding_top_responsive{padding-top: 10px;}
 .padding-top-responsive{padding-top: 63px;}
-.sub-heading-vision-mobile{
-	font-family: 'Montserrat';
-	font-size: 16px;
-	font-weight: 600;
-	color:#51B7F1;
-	line-height: 26px;
-	/* padding-left: 3%; */
-}
+.sub-heading-vision-mobile{font-family: 'Montserrat';font-size: 16px;font-weight: 600;color:#51B7F1;line-height: 26px;/* padding-left: 3%; */}
+.sub-heading-vision-mobile-bold{font-family: 'Montserrat';font-size: 20px;font-weight: 800;color:#51B7F1;}
+.sub-heading-vision-mobile-bold-gradient{font-family: 'Montserrat';font-size: 17px;font-weight: 800;background: -webkit-linear-gradient(left,#28A4ED, #607FD2,#8964BF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;display:  inline-block;}
+.responsive-padding-top{padding-top: 0px;}
+.map-title-bold-mobile{color: #14A6F1;font-weight: 800;font-size: 20px;font-family: 'FontBold'}
+.map-title-mobile{color: #14A6F1;font-size: 20px;font-family: 'FontLight';}
 
-.sub-heading-vision-mobile-bold{
-	font-family: 'Montserrat';
-	font-size: 20px;
-	font-weight: 800;
-	color:#51B7F1;
-}
-
-.sub-heading-vision-mobile-bold-gradient{
-	font-family: 'Montserrat';
-	font-size: 17px;
-	font-weight: 800;
-	background: -webkit-linear-gradient(left,#28A4ED, #607FD2,#8964BF);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	display:  inline-block;
-}
 }
 
 .banner-logo{
 	width: 11%;
     margin-top: 3%;
 }
+
 
 /***************SCROLL*****************/
 scroll_header {
@@ -1362,3 +1360,35 @@ scroll_header {
   .padding-0{
 	padding: 0px;
 }
+
+
+#containerMap {
+    height: 500px; 
+    min-width: 310px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+
+
+.my-link {
+  text-decoration: underline;
+}
+
+.my-link:hover {
+  cursor:pointer
+}
+
+
+.map-title-bold-desktop{color: #14A6F1;font-weight: 800;font-size: 24px;font-family: 'FontBold'}
+.map-title-desktop{color: #14A6F1;font-size: 24px;font-family: 'FontLight';}
+.map-text-desktop{color:#c1c1c1;font-family: 'FontLight';font-size: 14px;}
+
+.map-text-desktop-gradient{color:#c1c1c1;font-family: 'FontLight';font-size: 14px;}
+
+
+.map-text-desktop-gradient{font-family: 'FontLight';font-size: 18px;display:inline-block;background:-webkit-linear-gradient(left, #26A5EE, #8B63BE);background:linear-gradient(to right, #26A5EE, #8B63BE);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-weight:900 !important;cursor:pointer;}
